@@ -1,0 +1,142 @@
+body {
+  font-family: "Plus Jakarta Sans", sans-serif !important;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+/* .plus-jakarta-sans-<uniquifier > {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+} */
+.container {
+  flex: 1;
+}
+
+/* navbar */
+.navbar {
+  height: 5rem;
+  background-color: white;
+  box-shadow: 0px 2px 5px rgb(219, 217, 217);
+}
+
+.fa-compass {
+  color: #fe424d;
+  font-size: 2rem;
+}
+
+.nav-link {
+  color: #222 !important;
+  font-size: 1.5rem !important;
+  margin-right: 2rem !important;
+}
+
+.nav-link:hover {
+  transform: scale(1.025);
+  font-weight: 600;
+}
+
+/* footer */
+.f-info-links a {
+  text-decoration: none;
+  color: #222;
+  margin-right: 0.8rem;
+}
+
+.f-info-links a:hover {
+  text-decoration: underline;
+}
+
+.f-info-links,
+.f-info-socials,
+.f-info-brand {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.f-info-socials i {
+  font-size: 1.2rem;
+  margin-right: 1rem;
+}
+
+.f-info {
+  text-align: center;
+  height: 8rem;
+  background-color: #ebebeb;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: space-evenly;
+}
+
+/* cards */
+.card {
+  border: none !important;
+  border-radius: 1rem !important;
+  margin-bottom: 2rem;
+  box-shadow: 1px 1px 5px rgb(72, 72, 72);
+  transition-duration: 200ms !important;
+}
+
+.card-img-top {
+  border-radius: 1rem !important;
+  padding: 0.5rem !important;
+  width: 100% !important;
+  object-fit: cover !important;
+}
+
+.card-body {
+  padding: 0rem 1rem 0.5rem !important;
+}
+
+.card-text p {
+  font-weight: 400;
+}
+
+.listing-link {
+  text-decoration: none;
+}
+
+/* card-effects */
+.card:hover {
+  box-shadow: 1px 1px 10px rgb(48, 48, 48);
+  transform: scale(1.025);
+}
+
+.add-btn {
+  background-color: #fe424d !important;
+  border: none !important;
+}
+
+/* edit-page */
+.edit-btn {
+  background-color: #fe424d !important;
+  border: none !important;
+}
+
+/* show-page */
+.show-card {
+  border: none !important;
+  border-radius: 1rem !important;
+  margin-top: 1rem !important;
+  margin-bottom: 1.5rem !important;
+  box-shadow: 0px 0px 10px rgb(23, 23, 23);
+}
+
+.show-img {
+  margin-top: 0.6rem;
+  border-radius: 1.3rem;
+  height: 70vh;
+}
+
+.btns {
+  display: flex;
+}
+
+.show-card {
+  padding-left: 0;
+  padding-right: 0;
+}
